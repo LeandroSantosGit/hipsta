@@ -9,7 +9,7 @@ function preload() {
   imageTelaInicial = loadImage('assets/imagens/cenario/telaInicial.png');
   fonteTelaInicial = loadFont('assets/fonts/fonteTelaInicial.otf');
   config = loadJSON('config/config.json');
-  //somJogo = loadSound('assets/sons/trilha_jogo.mp3');
-  //somPulo = loadSound('assets/sons/somPulo.mp3');
-  //somGameOver = loadSound('assets/sons/game-over.mp3');
+  somJogo = loadSound('https://raw.githubusercontent.com/LeandroSantosGit/hipsta/master/assets/sons/trilha_jogo.mp3');
+  somPulo = loadSound('https://raw.githubusercontent.com/LeandroSantosGit/hipsta/master/assets/sons/somPulo.mp3');
+  somGameOver = loadSound('https://raw.githubusercontent.com/LeandroSantosGit/hipsta/master/assets/sons/game-over.mp3');
 }
